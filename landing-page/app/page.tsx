@@ -22,9 +22,9 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="flex justify-center mt-0 mb-15">
+            <div className="flex justify-center mt-0">
               <a
-                href="https://mhgh.ggo.vn/"
+                href="https://play.google.com/store/apps/details?id=mobi.mgh.mong.daihiep"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="vibrate-2-normal cursor-pointer bg-transparent p-0 border-none shadow-none hover:scale-105 transition-all duration-300 inline-block"
@@ -35,6 +35,24 @@ export default function Home() {
                   alt="Tải game"
                   width={380}
                   height={100}
+                  className="object-contain"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div className="flex justify-center mt-0 mb-15">
+              <a
+                href="https://mhgh.ggo.vn/huong-dan-su-dung-testflight-de-cai-dat-mong-huyen-giang-ho/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="vibrate-2-normal cursor-pointer bg-transparent p-0 border-none shadow-none hover:scale-105 transition-all duration-300 inline-block"
+                aria-label="Tải game"
+              >
+                <img
+                  src="/landing/ios.png"
+                  alt="Tải game"
+                  width={100}
+                  height={50}
                   className="object-contain"
                   loading="lazy"
                 />
@@ -83,7 +101,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center mt-2">
             <a
-              href="https://mhgh.ggo.vn/"
+              href="https://play.google.com/store/apps/details?id=mobi.mgh.mong.daihiep"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent p-0 border-none shadow-none hover:scale-105 transition-all duration-300 vibrate-2-normal cursor-pointer w-full inline-block"
@@ -127,17 +145,25 @@ export default function Home() {
               style={{ maxWidth: '200px' }}
               loading="lazy"
             />
-            <button className="bg-transparent p-0 border-none shadow-none hover:scale-105 transition-all duration-300 cursor-pointer">
-              <img
-                src="/landing/button-reward.png"
-                alt="Nhận thưởng"
-                width={260}
-                height={78}
-                className="object-contain w-full h-auto scale-120 mt-2"
-                style={{ maxWidth: '260px' }}
-                loading="lazy"
-              />
-            </button>
+            <div className="bg-transparent p-0 border-none shadow-none hover:scale-105 transition-all duration-300 cursor-pointer">
+              <a
+                href="https://www.facebook.com/monghuyengiangho"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-transparent p-0 border-none shadow-none hover:scale-105 transition-all duration-300 vibrate-2-normal cursor-pointer w-full inline-block"
+                aria-label="Join"
+              >
+                <img
+                  src="/landing/button-reward.png"
+                  alt="Nhận thưởng"
+                  width={260}
+                  height={78}
+                  className="object-contain w-full h-auto scale-120 mt-2"
+                  style={{ maxWidth: '260px' }}
+                  loading="lazy"
+                />
+              </a>
+            </div>
           </div>
         </div>
         {/* Phần 2 */}
@@ -164,26 +190,34 @@ export default function Home() {
               />
             </div>
             <div className="flex-1 flex items-center justify-center">
-            <img
-              src="/landing/chest.png"
-              alt="Chest"
-              width={220}
-              height={220}
-              className="object-contain w-full h-auto"
-              style={{ maxWidth: '220px', marginLeft: 0 }}
-              loading="lazy"
-            />
+              <img
+                src="/landing/chest.png"
+                alt="Chest"
+                width={220}
+                height={220}
+                className="object-contain w-full h-auto"
+                style={{ maxWidth: '220px', marginLeft: 0 }}
+                loading="lazy"
+              />
             </div>
           </div>
           <div className="flex justify-center items-center gap-6 mt-6">
-            <img
-              src="/landing/tiktok.png"
-              alt="Tiktok"
-              width={180}
-              height={90}
-              className="object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
+            <a
+              href="https://www.tiktok.com/@monghuyengiangho"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="inline-block"
+            >
+              <img
+                src="/landing/tiktok.png"
+                alt="Tiktok"
+                width={180}
+                height={90}
+                className="object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+            </a>
             <a
               href="https://www.facebook.com/monghuyengiangho"
               target="_blank"
@@ -239,7 +273,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center mb-40 mt-4">
             <a
-              href="https://mhgh.ggo.vn/"
+              href="https://play.google.com/store/apps/details?id=mobi.mgh.mong.daihiep"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"
